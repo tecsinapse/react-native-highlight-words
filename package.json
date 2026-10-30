@@ -1,14 +1,16 @@
 {
-  "name": "react-native-highlight-words",
-  "version": "1.0.1",
+  "name": "@tecsinapse/react-native-highlight-words",
+  "version": "1.0.3-beta.3",
   "description": "A React Native port of react-highlight-words. This component is used to highlight words within a larger body of text.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/clauderic/react-native-highlight-words.git"
+    "url": "git+https://github.com/tecsinapse/react-native-highlight-words.git"
   },
   "keywords": [
     "react-native",
@@ -27,14 +29,17 @@
   "author": "Clauderic Demers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clauderic/react-native-highlight-words/issues"
+    "url": "https://github.com/tecsinapse/react-native-highlight-words/issues"
   },
-  "homepage": "https://github.com/clauderic/react-native-highlight-words",
+  "homepage": "https://github.com/tecsinapse/react-native-highlight-words",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "highlight-words-core": "^1.0.3",
-    "prop-types": "^15.5.7"
+    "prop-types": "^15.8.1"
   },
   "peerDependencies": {
-    "react": "^15.5.0 || ^16"
+    "react": "18.2.0"
   }
 }

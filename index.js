@@ -5,11 +5,11 @@ import PropTypes from 'prop-types';
 
 Highlighter.propTypes = {
     autoEscape: PropTypes.bool,
-    highlightStyle: Text.propTypes.style,
+    highlightStyle: Text?.propTypes?.style,
     searchWords: PropTypes.arrayOf(PropTypes.string).isRequired,
-    textToHighlight: PropTypes.string.isRequired,
-    sanitize: PropTypes.func,
-    style: Text.propTypes.style
+    textToHighlight: PropTypes.string?.isRequired,
+    sanitize: PropTypes?.func,
+    style: Text?.propTypes?.style
 };
 
 /**

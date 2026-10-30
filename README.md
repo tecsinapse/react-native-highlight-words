@@ -4,9 +4,9 @@ React Native component used to highlight words within a larger body of text. Thi
 Check out a [demo](https://getexponent.com/@clauderic/react-native-highlight-words) using Exponent.
 
 ## Installation
-Using [npm](https://www.npmjs.com/package/react-native-highlight-words):
+Using [npm](https://www.npmjs.com/package/@tecsinapse/react-native-highlight-words):
 ```
-npm i --save react-native-highlight-words
+npm i --save @tecsinapse/react-native-highlight-words
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm i --save react-native-highlight-words
 To use it, just provide it with an array of search terms and a body of text to highlight:
 
 ```jsx
-import Highlighter from 'react-native-highlight-words';
+import Highlighter from '@tecsinapse/react-native-highlight-words';
 
 <Highlighter
   highlightStyle={{backgroundColor: 'yellow'}}

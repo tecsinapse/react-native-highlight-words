@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-native-highlight-words
+  title: React Native Highlight Words
+  description: >
+    Fork do componente React Native de destaque de palavras.
+  labels:
+    tecsinapse.com/lifecycle: ativo
+  annotations:
+    github.com/project-slug: tecsinapse/react-native-highlight-words
+    backstage.io/source-location: url:https://github.com/tecsinapse/react-native-highlight-words/tree/master/
+    tecsinapse.com/pm: user:default/a-confirmar
+    tecsinapse.com/po: user:default/a-confirmar
+    tecsinapse.com/tech-lead: user:default/a-confirmar
+    tecsinapse.com/personal-data: a-confirmar
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/quasar
+  system: react-native-highlight-words

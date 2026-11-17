@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: react-native-highlight-words
+  title: React Native Highlight Words
+  description: >
+    Fork do componente React Native de destaque de palavras.
+  labels:
+    tecsinapse.com/lifecycle: ativo
+spec:
+  owner: group:default/quasar

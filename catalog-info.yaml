@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: react-native-highlight-words-catalog
+  description: Entidades do React Native Highlight Words no Backstage
+spec:
+  type: url
+  targets:
+    - ./catalog/system-react-native-highlight-words.yaml
+    - ./catalog/react-native-highlight-words.yaml
